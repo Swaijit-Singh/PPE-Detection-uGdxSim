@@ -18,10 +18,7 @@ cd PPE-Detection-uGdxSim
 ```markdown
 git checkout -b my-new-branch
 ```
-- Add your Name to `contributorsList.js`
-```markdown
-git add .
-```
+
 - Commit your changes.
 
 ```markdown
