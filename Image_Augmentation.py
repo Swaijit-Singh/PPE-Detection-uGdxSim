@@ -13,7 +13,7 @@ augmentation_pipeline = iaa.Sequential([
     # iaa.Grayscale(alpha=(0.0, 1.0)),
 
     # CODE= ._01 # 1000-4000 is warm and 10000-40000 is cold
-    iaa.ChangeColorTemperature((-200, 200))
+    iaa.ChangeColorTemperature((1000, 4000))
 
     # CODE= ._02 # 0.5 is 50% of all pixels are inverted
     # iaa.Invert(0.5),
